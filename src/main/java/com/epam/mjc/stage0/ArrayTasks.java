@@ -2,7 +2,7 @@ package com.epam.mjc.stage0;
    /**
      * Return a String[] array that will list all the seasons of the year, starting with winter.
      */
-    static public String[] seasonsArray() {
+     public String[] seasonsArray() {
         String[] seasonsArray = {"winter","spring","summer","autumn"};
         return seasonsArray;
     }
@@ -107,7 +107,7 @@ package com.epam.mjc.stage0;
      * arr = [[3, 1, 2,], [3,2]] -> [[2, 3], [1, 2, 3]]
      * arr = [[5, 4], [7]]       -> [[7], [4, 5]]
      */
-    static public int[][] sortRaggedArray(int[][] arr) {
+     public int[][] sortRaggedArray(int[][] arr) {
         int[][] sortedArr= new int[arr.length][];
         for (int i=0; i< arr.length; i++){
                 for (int j=0; j<arr[i].length; j++){
