@@ -1,4 +1,5 @@
 package com.epam.mjc.stage0;
+public class ArrayTasks {
    /**
      * Return a String[] array that will list all the seasons of the year, starting with winter.
      */
@@ -117,4 +118,5 @@ package com.epam.mjc.stage0;
         }
         return sortedArr;
     }
+   
 }
